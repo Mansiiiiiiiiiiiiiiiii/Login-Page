@@ -1,0 +1,118 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffffff, #e1e1e1); /* Light white gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    width: 400px;
+    background-color: white; /* White background for the form */
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.center:hover {
+    transform: scale(1.05);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.textfiled {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    border: 2px solid #ddd; /* Light gray border */
+    border-radius: 10px;
+    padding-left: 15px;
+    margin: 10px 0;
+    outline: none;
+    background-color: #f9f9f9; /* Light background for input */
+    color: #333; /* Dark text color */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.textfiled:focus {
+    border-color: #444; /* Darker border color on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    background-color: #444; /* Dark button background */
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #333; /* Darker shade on hover */
+    transform: translateY(-3px);
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
+
+.forgetpass {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.link {
+    text-decoration: none;
+    color: #444; /* Dark gray link color */
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #333; /* Slightly darker gray on hover */
+}
+
+.signup {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media (max-width: 470px) {
+    .center {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .textfiled {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
+}
