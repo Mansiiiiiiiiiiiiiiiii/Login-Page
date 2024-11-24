@@ -1,8 +1,3 @@
-![Screenshot 2024-11-21 230422](https://github.com/user-attachments/assets/5a244b0a-be39-4f18-adfe-60a221c22fda)
-![Screenshot (332)](https://github.com/user-attachments/assets/42089d28-f487-44fa-8823-9e4a143880a3)
-![Screenshot 2024-11-23 224222](https://github.com/user-attachments/assets/2aca5d5c-d429-40ae-887d-4995cae39aa5)
-
-
 # School Login Page
 
 Welcome to the School Login Page! This page allows students and staff to securely access their accounts or sign up for new accounts. It features a clean and modern **white, blue, and green** theme for a user-friendly experience.
@@ -13,16 +8,18 @@ Welcome to the School Login Page! This page allows students and staff to securel
   - Title: **Login** heading.
   - Fields for **Username** and **Password**.
   - **Login** button.
+  - ![Screenshot 2024-11-21 230422](https://github.com/user-attachments/assets/5a244b0a-be39-4f18-adfe-60a221c22fda)
   
 - **Forget Password**: 
   - Link to `forgot_password.php` with a blurred background image of a student planting a tree.
   - Form to **Enter your Email** and a **Send Email** button.
+  - ![Screenshot (332)](https://github.com/user-attachments/assets/42089d28-f487-44fa-8823-9e4a143880a3)
 
 - **Signup Section**: 
   - Link to `signup.php` for new users.
   - Fields for **Username**, **Email**, and **Password**.
   - **Signup** button to register.
-
+  - ![Screenshot 2024-11-23 224222](https://github.com/user-attachments/assets/2aca5d5c-d429-40ae-887d-4995cae39aa5)
 ## Design Theme
 
 The page uses a **white** background with **blue** for buttons and links, and **green** accents for the Forgot Password page background.
