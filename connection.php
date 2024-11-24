@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "M@n$!kum12";
+$password = "password";
 $dbname = "responsiveform3";
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 if ($conn){
